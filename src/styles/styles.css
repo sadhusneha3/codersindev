@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #08B0D5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-item a:hover {
+    color: #E3447C;
+    transition: color 0.3s;
+  }
+  
+
+/* Carousel styles */
+.carousel {
+    background-color: #FDDA72;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 80vh; /* Set the height to 80% of the viewport height */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s;
+  }
+  
+  .carousel-item {
+    flex: 0 0 50%; /* Display two items at a time */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #FDDA72; /* Set the item background color */
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .carousel-item:hover {
+    background-color: #75D9FC; /* Change background color on hover */
+  }
+  
+  .carousel-arrow {
+    background-color: transparent;
+    border: 2px solid #FDDA72;
+    color: #FDDA72;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .carousel-arrow.prev {
+    left: 10px;
+  }
+  
+  .carousel-arrow.next {
+    right: 10px;
+  }
+  
+  .carousel-arrow:hover {
+    background-color: #E43D4C;
+    border-color: #E43D4C;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+
+  /* Footer styles with #FF9EBC color */
+.footer {
+    background-color: #E43D4C;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  /* Style the links in the footer */
+  .footer a {
+    color: #FF9EBC; /* Updated the color to #FF9EBC */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #E3447C;
+    transition: color 0.3s;
+  }
+  
+  
