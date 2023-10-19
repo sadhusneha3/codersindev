@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Card() {
+function Card({ title, content }) {
   return (
-    // Your card component JSX here
-    <div>
-        
+    <div className="card">
+      <h2 className="card-title">{title}</h2>
+      <p className="card-content">{content}</p>
     </div>
   );
 }
